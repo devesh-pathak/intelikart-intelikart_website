@@ -1,0 +1,279 @@
+/* Media Queries */
+@media screen and (min-width: 766px) and (max-width: 990px){
+    .counts{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+         
+     }
+     .countbox{
+         width: 100%;
+         justify-content: left;
+         padding-left: 30px;
+     }
+}
+
+
+
+@media screen and  (max-width: 990px) {
+    body{
+        overflow-x: hidden;
+    }
+    .launch {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .weblaunch {
+        width: 100%;
+    }
+
+    .slds-text-heading_large {
+        width: 100%;
+        text-align: center;
+    }
+
+    .startnow {
+        text-align: center;
+        width: 100%;
+    }
+
+    .picture {
+        width: 100%;
+        text-align: center;
+    }
+
+    #about {
+        display: block;
+        width: 100%;
+    }
+
+    .aboutintelikart {
+        padding: 0;
+        margin: 0;
+    }
+
+    
+    #services{
+        width: 100%;
+     }
+     .servicebox{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 10px;
+     }
+    .ourpromise {
+        width: 100%;
+    }
+
+    .ourpromise p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .promisebox {
+        display: block;
+        width: 100%;
+        justify-items: center;
+        row-gap: 20px;
+    }
+
+    .promisebox img {
+        justify-self: center;
+    }
+
+    #pricing {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+        grid-gap: 60px;
+    }
+
+    .pricingbox {
+        width: 100%;
+    }
+
+    .testinomials {
+        width: 100%;
+        margin-bottom: 500px;
+    }
+
+    .recentblog {
+        width: 100%;
+        margin-bottom: 600px;
+    }
+
+    .recentblog h3 {
+        width: 100%;
+    }
+
+    .recentblogpost {
+        width: 100%;
+        display: block;
+    }
+    .blogimage {
+        width: 100%;
+    }
+    .post{
+        margin-bottom: 10px;
+    }
+    .postdate {
+        width: 100%;
+    }
+
+    .entrepreneurship {
+        flex-direction: column;
+    }
+    .entrepreneurship h1{
+        margin: 50px;
+    }
+    .entrepreneurship p{
+        margin: 50px;
+        font: 24px "Open Sans", sans-serif;
+    }
+    .chatwithus{
+        margin: 50px;
+    }
+    .entrepreneurship img{
+        margin-top: 100px;
+    }
+    .description{
+        flex-direction: column;
+        row-gap: 100px;
+        
+    }
+    .description_link {
+        font: 24px "Open Sans", sans-serif;
+    }
+    .descriptionbox h3{
+        font: 30px Nunito, sans-serif;
+    }
+    .description .address{
+        font: 24px "Open Sans", sans-serif;
+    }
+    .descriptionbox{
+        width: 100%;
+    }
+    .followus_on{
+        font: 26px Nunito, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 766px) {
+    .counts {
+        flex-direction: column;
+        row-gap: 50px;
+
+    }
+
+    .countbox {
+        width: 100%;
+        justify-content: left;
+        padding-left: 30px;
+    }
+
+    #services {
+        width: 100%;
+    }
+
+    .servicebox {
+        display: block;
+        width: 100%;
+    }
+
+    .ourpromise {
+        width: 100%;
+    }
+
+    .ourpromise p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .promisebox {
+        display: block;
+        width: 100%;
+        justify-items: center;
+        row-gap: 20px;
+    }
+
+    .promisedetails {
+        display: block;
+    }
+
+    .promisedetailblock {
+        justify-self: center;
+    }
+
+    .features {
+        display: block;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .pricingheading p {
+        text-align: center;
+    }
+
+    #pricing {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .pricingbox {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .testinomials {
+        width: 100%;
+        margin-bottom: 600px;
+    }
+
+    .recentblog {
+        margin-bottom: 700px;
+    }
+
+    .contactus {
+        width: 100%;
+    }
+
+    .contactus_row {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .contactus_box {
+        width: 100%;
+    }
+    .descriptionbox2 {
+        width: 100%;
+        column-gap: 100px;
+    }
+    .descriptionbox2 .descriptionbox{
+        width: 100%;
+    }
+    .copyright{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 991px) {
+.navbar >i {
+    display: block;
+}
+.navbar ul {
+    display: none;
+}
+}
